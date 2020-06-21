@@ -1,6 +1,8 @@
 body{
     background: linear-gradient(180deg, #FF8C94 0%, rgba(255, 255, 255, 0.7) 30%, rgba(255, 255, 255, 0.48) 57.08%, #FFD3B5 100%), url(background.png);    
     background-size:1152px 800px;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 
