@@ -9,9 +9,16 @@
     z-index:-1;
 } .skill{
     display: table;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
 } 
 .btn-group{
     padding-left: 10px;
     display: table-cell;
 
+} #icons{
+    padding-left: 5%;
+    width: 75px;
+    height: 75px;
 }
