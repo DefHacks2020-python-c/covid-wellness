@@ -75,6 +75,8 @@ nav{
     top: 424px;
     
     border-radius: 50%;
+    z-index:1;
+
 }
 
 #skillpic2{
@@ -83,8 +85,10 @@ nav{
     height: 101px;
     left: 850px;
     top: 424px;
-    
+
     border-radius: 50%;
+    z-index:0;
+
 }
 
 #skillpic3{
@@ -95,6 +99,7 @@ nav{
     top: 424px;
     
     border-radius: 50%;
+    z-index:0;
 }
 
 /* #progressbar1{
@@ -107,16 +112,16 @@ nav{
     background: #A8E6CE;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 } */
-/* #progress1{
+#progress1{
     position: absolute;
     width: 130px;
     height: 130px;
     left: 700px;
     top: 409px;
     border-radius: 50%;
-    
     background: #C4C4C4;
-} */
+    z-index: 0;
+}
 
 
 
