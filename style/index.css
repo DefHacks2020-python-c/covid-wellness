@@ -1,0 +1,19 @@
+#bg{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+  
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-1;
+}#covidWellness{
+    text-align: center;
+    margin-top: 20px;
+   font-size: 150px;
+   padding-top: 15%;
+} #signup{
+    text-align: center;
+   font-size: 50px;
+   padding-top: 2%;
+}
