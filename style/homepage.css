@@ -5,12 +5,22 @@
 } #jokeOfTheDay{
     text-align: center;
     padding-top: 50px;
-     font-size: 50px;
+    font-size: 50px;
+    position: absolute;
+    width: 488px;
+    height: 152px;
+    left: 86px;
+    top: 277px;
 
 }#skills{
     text-align: center;
     padding-top: 20px;
- font-size: 50px;
+    font-size: 50px;
+    position: absolute;
+    width: 488px;
+    height: 152px;
+    left: 651px;
+    top: 277px;
 }#jokes{
     text-align: center;
     padding-top: 10px;
@@ -25,4 +35,20 @@
 
 nav{
     background-color:#FF8C94;
+}
+
+h3{
+    font-family: Sansation;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 72px;
+
+    color: #DCEDC2;
+
+    border: 5px solid #000000;
+    text-shadow: -1px 1px 0 #000, 
+    1px 1px 0 #000, 
+   1px -1px 0 #000,
+  -1px -1px 0 #000; 
 }
