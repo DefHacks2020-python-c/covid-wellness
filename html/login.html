@@ -11,12 +11,27 @@
         <h2>Login</h2>
 
         
-        <form>
-            Username: <input type="text" placeholder="janedoe"><br><br>
-            Password: <input type="text" placeholder="jane1234"><br><br>
+        <form method="post" action="../php/welcome.php">
+            Username : <input type="text" name="username"><br><br>
+            Password : <input type="password" name="password"><br><br>
+            <input type="submit" value="Submit">
         </form>
-        <button onclick="location.href='homepage.html'" type="button">[Sign in]</button>
-        <p>Dont have an account? Sign up <a href="signup.html">here.</a></p>
+        <!-- <button onclick="location.href='homepage.html'" type="button">[Sign in]</button>
+        <p>Dont have an account? Sign up <a href="signup.html">here.</a></p> -->
 
     </body>
 </html>
+
+<!-- <html>
+    <head>
+     <title>Field 1 & 2</title>
+    </head>
+    <body>
+       <form action="action.php" method="post">
+         What is your name?<br>
+         <input type="text" name="field1"><br>
+           <input type="text" name="field2"><br>
+          <input type="submit" value="Submit">
+       </form>
+    </body>
+   </html> -->
