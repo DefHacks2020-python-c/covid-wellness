@@ -12,7 +12,14 @@
     margin-top: 20px;
    font-size: 150px;
    padding-top: 15%;
-} #signup{
+} #about{
+    text-align: center;
+   font-size: 25px;
+   padding-top: 2%;
+   padding-left: 15%;
+   padding-right: 15%;
+    color: aliceblue;
+}#signup{
     text-align: center;
    font-size: 50px;
    padding-top: 2%;
